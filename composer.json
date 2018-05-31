@@ -1,0 +1,22 @@
+{
+  "name": "jiromm/scheduler",
+  "description": "Advanced crontab replacement in PHP",
+  "keywords": ["scheduler", "cron", "crontab", "reactphp"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aram Baghdasaryan",
+      "email": "aram@jiromm.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Jiromm\\Shceduler\\": "src"
+    }
+  },
+  "require": {
+    "php": "^7.1",
+    "react/child-process": "^0.5.2",
+    "zendframework/zend-config": "^3.2"
+  }
+}
